@@ -1,0 +1,112 @@
+Öğrenilmesi Gereken Konular
+Ağ Bağlantısı ve IP Ayarları++
+
+Ethernet bağlantısı ve yerel ağ üzerinde belirli bir IP adresi ile bağlantı kurma.
+Güvenlik duvarlarının ayarlanması.
+API Kullanımı ve HTTP İstekleri     (öğrenme aşamasında)
+
+API isteklerini (GET, POST) ve durum kodlarını (200, 400, 401 gibi) anlama.
+JSON formatını kullanarak veri gönderme ve alma.
+Sunucuya Oturum Açma
+
+Kullanıcı adı ve şifre ile sunucuda oturum açma işlemleri.
+Telemetri Verileri Gönderme
+
+İHA’dan sunucuya veri gönderimi, hız sınırlarına uyma (1 Hz ile 2 Hz arasında).
+Telemetri paketinin içerik formatını (örneğin, konum, hız, batarya durumu) anlama.
+Kilitlenme Bilgisi Gönderimi
+
+Hedefe kilitlenme bilgisi gönderme (başlangıç, bitiş zamanı ve otonom bilgisi).
+Kamikaze Bilgisi Gönderimi
+
+QR kod okutma ve kamikaze göreviyle ilgili bilgilerin gönderimi.
+QR Koordinatları Alma
+
+Yarışma sırasında kullanılacak QR kodun konumunu sorgulama.
+Hava Savunma Sistemi (HSS) Koordinatları
+
+HSS koordinatlarını sorgulama ve belirli koordinatlarda uçuş yapmama.
+Öğrenme Planı
+Hafta 1-2: Ağ Bağlantısı ve Temel API Bilgisi
+
+Ağ bağlantısı, IP adresi ayarları ve güvenlik duvarı ayarları üzerine çalışın.
+HTTP ve JSON veri formatlarını inceleyin; API istekleri (GET, POST) ve temel HTTP durum kodları (200, 400, 401 gibi) hakkında bilgi edinin.
+Hafta 3-4: API İstekleri ve Oturum Açma İşlemleri
+
+API adreslerine (sunucu saati sorgulama, telemetri gönderme gibi) veri gönderme ve alma üzerine çalışın.
+Sunucuya giriş yapma sürecini ve kullanıcı kimlik doğrulamasını öğrenin.
+Hafta 5-6: Telemetri Verisi Gönderme
+
+Telemetri verisi formatına uygun veri paketleri oluşturun.
+Gönderim hız sınırlarını test edin ve JSON formatında veri paketleri oluşturma pratiği yapın.
+Hafta 7-8: Kilitlenme ve Kamikaze Görev Bilgisi Gönderimi
+
+Kilitlenme ve kamikaze görevlerine yönelik JSON formatındaki veri örneklerini inceleyin.
+Bu görevlerde gereken başlangıç ve bitiş zamanlarının doğru şekilde eklenmesini sağlayın.
+Hafta 9: QR ve HSS Koordinatlarının Alınması
+
+QR koordinatları sorgulama ve gerekli konum bilgilerini elde etme işlemleri üzerine çalışın.
+HSS koordinatlarına erişme ve güvenli uçuş için gereken sınırları belirleme.
+
+
+
+
+
+Öğrenme Planı
+Hafta 1-2: Ağ Bağlantısı ve Temel API Bilgisi    ++++
+
+Ağ bağlantısı, IP adresi ayarları ve güvenlik duvarı ayarları üzerine çalışın.
+HTTP ve JSON veri formatlarını inceleyin; API istekleri (GET, POST) ve temel HTTP durum kodları (200, 400, 401 gibi) hakkında bilgi edinin.
+
+Hafta 3-4: API İstekleri ve Oturum Açma İşlemleri
+
+API adreslerine (sunucu saati sorgulama, telemetri gönderme gibi) veri gönderme ve alma üzerine çalışın.
+Sunucuya giriş yapma sürecini ve kullanıcı kimlik doğrulamasını öğrenin.
+
+Hafta 5-6: Telemetri Verisi Gönderme
+
+Telemetri verisi formatına uygun veri paketleri oluşturun.
+Gönderim hız sınırlarını test edin ve JSON formatında veri paketleri oluşturma pratiği yapın.
+
+Hafta 7-8: Kilitlenme ve Kamikaze Görev Bilgisi Gönderimi
+	
+Kilitlenme ve kamikaze görevlerine yönelik JSON formatındaki veri örneklerini inceleyin.
+Bu görevlerde gereken başlangıç ve bitiş zamanlarının doğru şekilde eklenmesini sağlayın.
+
+Hafta 9: QR ve HSS Koordinatlarının Alınması
+
+QR koordinatları sorgulama ve gerekli konum bilgilerini elde etme işlemleri üzerine çalışın.
+HSS koordinatlarına erişme ve güvenli uçuş için gereken sınırları belirleme.
+
+
+
+
+KAYNAKLAR
+
+
+1. Ağ Bağlantısı ve IP Ayarları
+BTK Akademi - Bilgi Teknolojilerine Giriş ve Ağ Temelleri
+BTK Akademi’nin ücretsiz kursları arasında yer alan bu ders, ağ bağlantısı, IP adresleri, ağ güvenliği ve yapılandırma konularına giriş yapmanıza yardımcı olur.
+BTK Akademi										
+
+
+2. API Kullanımı ve HTTP İstekleri
+YouTube: Kodluyoruz - REST API Nedir ve Nasıl Kullanılır?
+Bu video, API kullanımı, HTTP durum kodları ve JSON veri formatı hakkında bilgi sağlar. API temel işleyişini hızlıca öğrenmek için ideal. Kodluyoruz REST API Video
+
+BTK Akademi - Web Programlamaya Giriş
+Bu kursta JSON veri yapısı ve temel API isteklerini öğrenebilirsiniz. BTK Akademi - Web Programlamaya Giriş
+
+3. Sunucuya Oturum Açma ve Kimlik Doğrulama
+Udemy - RESTful API Geliştirme
+Bu kurs, kimlik doğrulama ve oturum açma gibi temel API işlemlerini içerir. Özellikle sunucu ile iletişim kurarak veri gönderme ve alma işlemlerini içerir. Udemy - RESTful API Geliştirme
+4. Telemetri Verisi Gönderme
+YouTube: Yazılım Bilimi - Python ile Gerçek Zamanlı Veri Gönderimi
+Gerçek zamanlı veri gönderme ve JSON veri formatı ile ilgili bilgiler içeren bir video. Telemetri verisini anlık olarak sunucuya iletmek için temel bilgiler sağlar. Yazılım Bilimi Telemetri Video
+5. Kilitlenme ve Kamikaze Bilgisi Gönderimi
+Udemy - Python ile API Geliştirme ve JSON Veri Gönderimi
+JSON formatında veri gönderme ve almayı içeren bu kurs, özellikle kamikaze ve kilitlenme görev bilgisi gibi karmaşık veri paketlerini öğrenmek için uygundur. Udemy - Python ile API Geliştirme
+6. Koordinat Sorgulama ve Konum Bilgisi İşleme
+BTK Akademi - Coğrafi Bilgi Sistemlerine Giriş (CBS)
+QR ve HSS koordinatlarını sorgulama gibi konum bilgisi işleme ihtiyaçlarınız için temel coğrafi bilgi sistemleri (CBS) üzerine bilgi sağlar. BTK Akademi - Coğrafi Bilgi Sistemleri
+Bu kaynaklar sayesinde konuları Türkçe olarak öğrenebilir ve yarışma gereksinimlerine yönelik pratik bilgi edinebilirsiniz
