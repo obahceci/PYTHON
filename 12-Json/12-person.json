@@ -1,0 +1,15 @@
+{
+  "firstName": "Oguzhan",
+  "lastName": "Bahceci",
+  "hobiler": [
+    "spor",
+    "sinema"
+  ],
+  "age": 37,
+  "children": [
+    {
+      "firstName": "Cinar",
+      "age": 3
+    }
+  ]
+}
