@@ -11,7 +11,7 @@ app = FastAPI()     #api nesnesi oluşturur
 
 
 #cmd de öncelikle dosyamızın olduğu yere gitmemiz gerekiyor
-#uvicorn main:app --reload yazıp çalıştırıyoruz
+#uvicorn FileName:app --reload yazıp çalıştırıyoruz  test ettiğimiz sunucuyu oluşturur
 
 '''
 @app.get("/")          
